@@ -31,22 +31,25 @@ measurements.means.stdev, computed by subject and by activity in the data frame:
 	b. The activities are identified by name in the variable "activity", and they are: <br>
 		WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-	c. Measurements of the volnteers activities were collected using an accelerometer and a gyroscope,<br> and the 3-axial linear acceleration and 3-axial angular velocity were captured at a constant<br> rate of 50Hz. For a detailed description of how the variables were collected,<br> see HAR USD dataset from activityrecognition@smartlab.ws. <br> For each record in the HAR USD dataset, we collected the mean and standard deviation of 
+	c. Measurements are decribed below.
+	
+Measurements of the volunteers activities were collected using an accelerometer and a gyroscope, and the 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. For a detailed description of how the variables were collected, see HAR USD dataset from activityrecognition@smartlab.ws.  
+For each record in the HAR USD dataset, we collected the mean and standard deviation of 
 the following measurements:<br>
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - ()-feature vector with the mean and standard deviation of time (t) and frequency (f) domain variables. 
 
 **Description from [1]: **<br>
-"The features selected for this database come from the accelerometer and gyroscope 3-axial <br>
-raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) <br>
-were captured at a constant rate of 50 Hz. Then they were filtered using a median filter <br>
-and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.<br> 
-Similarly, the acceleration signal was then separated into body and gravity acceleration signals <br>
+"The features selected for this database come from the accelerometer and gyroscope 3-axial
+raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time)
+were captured at a constant rate of 50 Hz. Then they were filtered using a median filter 
+and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals 
 (tBodyAcc-XYZ and tGravityAcc-XYZ) 
-using another low pass Butterworth filter with a corner frequency of 0.3 Hz.<br>
+using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 <br>
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals <br>
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
 (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). <br>
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm 
 (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). <br>
