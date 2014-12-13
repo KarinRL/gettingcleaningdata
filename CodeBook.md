@@ -23,7 +23,7 @@ Then we created a tidy data frame which contains the mean of each variable in
 measurements.means.stdev, computed by subject and by activity in the data frame:<br>
 **mean.measmeanstd.bysubject.byactivity**
 
-<hline>
+
 ===================================================================
 <h2>B. Variables</h2>
 	a. The volunteers are individually identified in the variable "subject" with a number from 1 to 30.
@@ -111,7 +111,7 @@ fBodyBodyAccJerkMag.std.. ,<br>
 fBodyBodyGyroMag.std.. ,  <br>
 fBodyBodyGyroJerkMag.std.. <br>
 
-<hline>
+
 ==============================================================================
 
 <h3>C. Project Steps</h3>
@@ -120,13 +120,13 @@ fBodyBodyGyroJerkMag.std.. <br>
 	3. Get the names of the features (variables) and activity_labels. 
 	4. Select from features only the features containing the mean and standard deviation of
 		measurements. Make sure you do not include the mean-frequency features.
-	5. Read the datafiles for the training-set and the test-set<br>
-		For example, for the train-set:<br>
-		Read X_train from ./datadir/train/X_train.txt.<br> 
-			Select only the mean and standard deviation of measurements features<br>
-		Y_train from ./datadir/train/Y_train.txt<br>
-		subject_train from ./datadir/train/subject_train.txt<br> 
-		We do the same for the test-set<br>
+	5. Read the datafiles for the training-set and the test-set
+		For example, for the train-set:
+		Read X_train from ./datadir/train/X_train.txt.
+			Select only the mean and standard deviation of measurements features
+		Y_train from ./datadir/train/Y_train.txt
+		subject_train from ./datadir/train/subject_train.txt
+		We do the same for the test-set
 	6. Combine train and test sets, for X, Y and subject.<br>
 		for example: X<-rbind(X_train,X_test)<br>
 	7. Clean up space: remove train and test sets<br>
