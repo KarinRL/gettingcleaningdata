@@ -155,5 +155,5 @@ C. Project Steps
 		3       1 STANDING        -0.9826250        -0.9766373        -0.9764938
 		4       1  WALKING        -0.3506753        -0.5576393        -0.1609796
 
-	11. Write the data.frame into a csv file with the same name
+	11. Write the data.frame into a .txt file with the same name
 	
