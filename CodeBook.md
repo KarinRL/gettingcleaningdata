@@ -1,6 +1,6 @@
 ==================================================================
-<h2> Coursera Getting and Cleaning Data PROJECT </h2>
-				<h3> CODE BOOK  </h3>
+<h2> Coursera Getting and Cleaning Data PROJECT <br>
+				CODE BOOK  </h2>
 ==================================================================
 This project uses the dataset from the following work:<br>
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
