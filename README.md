@@ -28,9 +28,9 @@ mean.measmeanstd.bysubject.byactivity
 
 <h3>The files: </h3>
 
-* Item	run_analysis.R 	&nbsp;	&nbsp;	contains the code for the assigned project tasks. 
-* Item	CodeBook.md	&nbsp;	&nbsp;	explains the names of the variables and all the steps in run_analysis.R 
-* Item	mean.measmeanstd.bysubject.byactivity.txt &nbsp;&nbsp;	output file - tidy data - with avearges of measuremnts
+* **run_analysis.R** 	&nbsp;	&nbsp;	contains the code for the assigned project tasks. 
+* **CodeBook.md**	&nbsp;	&nbsp;	explains the names of the variables and all the steps in run_analysis.R 
+* **mean.measmeanstd.bysubject.byactivity.txt** &nbsp;&nbsp;	output file - tidy data - with avearges of measuremnts
 	                                             in above file, computed by subject and by activity 
 	
 **NOTE:** there were a couple of activities in the code that could have been made with a function. 
