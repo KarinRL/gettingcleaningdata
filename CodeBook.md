@@ -123,36 +123,36 @@ fBodyBodyGyroJerkMag.std.. <br>
 		Y_train from ./datadir/train/Y_train.txt
 		subject_train from ./datadir/train/subject_train.txt
 		We do the same for the test-set
-	6. Combine train and test sets, for X, Y and subject.<br>
-		for example: X<-rbind(X_train,X_test)<br>
-	7. Clean up space: remove train and test sets<br>
-		for example rm(X_train)<br>
+	6. Combine train and test sets, for X, Y and subject.
+		for example: X<-rbind(X_train,X_test)
+	7. Clean up space: remove train and test sets
+		for example rm(X_train)
 		
 	8. Name everything: <br>
-		Label the variables in X with features. <br>
-		Name the factor variable Y as "activity" and naem the activities in Y with activity_lables.<br>
-		Name the factor variable subject as "subject".<br>
-	9. Put everything together in one data-frame called measurements.means.stdev<br>
-	This is what a portion of it looks like:<br>
-		>head(measurements.means.stdev,4)<br>
-		subject activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z<br>
-		1       1 STANDING        -0.9750599        -0.9915537        -0.9689591<br>
-		2       1 STANDING        -0.9847146        -0.9915537        -0.9806831<br>
-		3       1 STANDING        -0.9847146        -0.9661929        -0.9763171<br>
-		4       1 STANDING        -0.9900291        -0.9816856        -0.9820599<br>
+		Label the variables in X with features. 
+		Name the factor variable Y as "activity" and naem the activities in Y with activity_lables.
+		Name the factor variable subject as "subject".
+	9. Put everything together in one data-frame called measurements.means.stdev
+	This is what a portion of it looks like:
+		>head(measurements.means.stdev,4)
+		subject activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z
+		1       1 STANDING        -0.9750599        -0.9915537        -0.9689591
+		2       1 STANDING        -0.9847146        -0.9915537        -0.9806831
+		3       1 STANDING        -0.9847146        -0.9661929        -0.9763171
+		4       1 STANDING        -0.9900291        -0.9816856        -0.9820599
 		
-	10. Create a tidy data-frame with summary (mean) of all features, by subject and activity<br>
-		mean.measmeanstd.bysubject.byactivity<br>
-		This is what a portion of it lookslike:<br>
-		> head(mean.measmeanstd.bysubject.byactivity,4)<br>
-		Source: local data frame [4 x 81]<br>
-		Groups: subject<br>
+	10. Create a tidy data-frame with summary (mean) of all features, by subject and activity
+		mean.measmeanstd.bysubject.byactivity
+		This is what a portion of it lookslike:
+		> head(mean.measmeanstd.bysubject.byactivity,4)
+		Source: local data frame [4 x 81]
+		Groups: subject
 
-		subject activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z<br>
-		1       1   LAYING        -0.8298188        -0.9096780        -0.8747595<br>
-		2       1  SITTING        -0.9520837        -0.9187667        -0.9308925<br>
-		3       1 STANDING        -0.9826250        -0.9766373        -0.9764938<br>
-		4       1  WALKING        -0.3506753        -0.5576393        -0.1609796<br>
+		subject activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z
+		1       1   LAYING        -0.8298188        -0.9096780        -0.8747595
+		2       1  SITTING        -0.9520837        -0.9187667        -0.9308925
+		3       1 STANDING        -0.9826250        -0.9766373        -0.9764938
+		4       1  WALKING        -0.3506753        -0.5576393        -0.1609796
 
 	11. Write the data.frame into a .txt file with the same name
 	
