@@ -1,5 +1,5 @@
 ==================================================================
-<h2> Coursera Getting and Cleaning Data PROJECT <h2>
+<h2> Coursera Getting and Cleaning Data PROJECT </h2>
 				CODE BOOK
 ==================================================================
 This project uses the dataset from the following work:<br>
