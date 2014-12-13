@@ -1,21 +1,22 @@
 ==================================================================
 Coursera Getting and Cleaning Data PROJECT
 ==================================================================
-This project uses the dataset:
-Human Activity Recognition Using Smartphones Dataset (HAR USD) Version 1.0
-by
-Davide Anguita, Alessandro Ghio, Luca Oneto, Jorge L. Reyes-Ortiz.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
+This project uses the dataset: <br>
+Human Activity Recognition Using Smartphones Dataset (HAR USD) Version 1.0<br>
+by<by>
+Davide Anguita, Alessandro Ghio, Luca Oneto, Jorge L. Reyes-Ortiz.<br>
+Smartlab - Non Linear Complex Systems Laboratory <br>
+DITEN - Università degli Studi di Genova. <br>
+Via Opera Pia 11A, I-16145, Genoa, Italy. <br>
+activityrecognition@smartlab.ws<br>
+www.smartlab.ws <br>
 
-Reference:
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
+Reference: <br>
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly 
-Support Vector Machine. 
-International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+Support Vector Machine. <br>
+International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012<br>
+<hline>
 ==================================================================
 
 In this project we collected the mean and standard deviation of measurements
