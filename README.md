@@ -6,7 +6,7 @@ Human Activity Recognition Using Smartphones Dataset (HAR USD) Version 1.0
 by
 Davide Anguita, Alessandro Ghio, Luca Oneto, Jorge L. Reyes-Ortiz.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
@@ -28,8 +28,7 @@ mean.measmeanstd.bysubject.byactivity
 The files: 
 	run_analysis.R 	contains the code for the assigned project tasks.
 	CodeBook.md		explains the names of the variables and all the steps in run_analysis.R
-	measurements.means.stdev.csv		output file with mean and standard deviation of measurements
-	mean.measmeanstd.bysubject.byactivity.csv	output file - tidy data - with avearges of measuremnts
+	mean.measmeanstd.bysubject.byactivity.txt	output file - tidy data - with avearges of measuremnts
 	                                             in above file, computed by subject and by activity
 	
 NOTE: there were a couple of activities in the code that could have been made with a function. 
