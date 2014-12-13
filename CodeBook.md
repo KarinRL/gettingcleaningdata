@@ -5,6 +5,7 @@
 This project uses the dataset from the following work:<br>
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. <br>
+
 International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012<br>
 ==================================================================
 
