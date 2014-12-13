@@ -31,14 +31,8 @@ measurements.means.stdev, computed by subject and by activity in the data frame:
 	b. The activities are identified by name in the variable "activity", and they are: <br>
 		WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-	c. Measurements of the volnteers activities were collected using an accelerometer 
-and a gyroscope, and the 3-axial linear acceleration and 3-axial angular velocity 
-were captured at a constant rate of 50Hz. 
-For a detailed description of how the variables were collected, see HAR USD dataset from 
-activityrecognition@smartlab.ws
-
-For each record in the HAR USD dataset, we collected the mean and standard deviation of 
-the following measurements:
+	c. Measurements of the volnteers activities were collected using an accelerometer and a gyroscope, and the 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. For a detailed description of how the variables were collected, see HAR USD dataset from activityrecognition@smartlab.ws. <br> For each record in the HAR USD dataset, we collected the mean and standard deviation of 
+the following measurements:<br>
 - Triaxial acceleration from the accelerometer (total acceleration) and 
    the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
