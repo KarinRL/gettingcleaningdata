@@ -3,15 +3,15 @@
 				CODE BOOK  </h2>
 ==================================================================
 This project uses the dataset from the following work:<br>
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
+<h6>Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. <br>
-<h6>International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012</h6>
+International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012</h6>
 ==================================================================
 
 This Code Book is divided into 3 parts:<br>
-	A. Introduces the goal of the project.
-	B. Explains the variables involved.
-	C. Explains the code, step by step.
+	A. Introduces the goal of the project.<br>
+	B. Explains the variables involved.<br>
+	C. Explains the code, step by step.<br>
 	
 
 ===================================================================
