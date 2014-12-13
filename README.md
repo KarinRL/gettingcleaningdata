@@ -38,13 +38,13 @@ But the tasks were simple enough that I decided against it. Thus, there is no ad
 for this project. The file run_analysis.R is self contained.
 
 <h3>WARNINGS:</h3>
-Item 1  run_analysis.R assumes that the file getdata-projectfiles-UCI HAR Dataset.zip 
+1.  run_analysis.R assumes that the file getdata-projectfiles-UCI HAR Dataset.zip 
 was downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 and the dataset was extracted into a directory called:
 UCI HAR <br>
-Item 2 The first line of code in run_analysis sets the working directory to the directory where
+2. The first line of code in run_analysis sets the working directory to the directory where
  UCI HAR was located in my computer. You should change it to the directory where you 
  have downloaded the UCI HAR dataset. <br>
-Item 3 The second line of code in run_analysis sets name of the folder where the UCI HAR Dataset
+3. The second line of code in run_analysis sets name of the folder where the UCI HAR Dataset
 is located in my computer. I called that folder "UCI HAR". If you used a different name, you whould change it here. 
