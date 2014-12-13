@@ -1,20 +1,19 @@
 ==================================================================
 <h2> Coursera Getting and Cleaning Data PROJECT </h2>
-				CODE BOOK
+				<h2>CODE BOOK</h2>
 ==================================================================
 This project uses the dataset from the following work:<br>
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
-Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly 
-Support Vector Machine. <br>
+Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. <br>
 International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012<br>
 ==================================================================
 
-This Code Book is divided into 3 parts:
+This Code Book is divided into 3 parts:<br>
 	A. Introduces the goal of the project.
 	B. Explains the variables involved.
 	C. Explains the code, step by step.
 	
-	<hline>
+
 ===================================================================
 A. In this project we collected the mean and standard deviation of measurements
 of human activity of 30 volunteers assembled by the lab referenced above in a data frame called:<br>
