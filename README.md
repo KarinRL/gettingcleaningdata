@@ -28,16 +28,16 @@ mean.measmeanstd.bysubject.byactivity
 
 <h3>The files: </h3>
 <ul>
-<il>	run_analysis.R 	&nsp;	&nsp;	contains the code for the assigned project tasks. </il>
-<il>	CodeBook.md	&nsp;	&nsp;	explains the names of the variables and all the steps in run_analysis.R </li>
-<il>	mean.measmeanstd.bysubject.byactivity.txt &nsp;	&nsp;	output file - tidy data - with avearges of measuremnts
+<il>	run_analysis.R 	&nbsp;	&nbsp;	contains the code for the assigned project tasks. </il>
+<il>	CodeBook.md	&nbsp;	&nbsp;	explains the names of the variables and all the steps in run_analysis.R </li>
+<il>	mean.measmeanstd.bysubject.byactivity.txt &nbsp;&nbsp;	output file - tidy data - with avearges of measuremnts
 	                                             in above file, computed by subject and by activity </il>
 </ul>	
 NOTE: there were a couple of activities in the code that could have been made with a function. 
 But the tasks were simple enough that I decided against it. Thus, there is no additional script files
 for this project. The file run_analysis.R is self contained.
 
-WARNINGS:<br>
+<h3>WARNINGS:</h3>
 1)  run_analysis.R assumes that the file getdata-projectfiles-UCI HAR Dataset.zip 
 was downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
