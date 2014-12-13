@@ -56,5 +56,5 @@ library(dplyr);
 mean.measmeanstd.bysubject.byactivity<-measurements.means.stdev %>% group_by(subject,activity) %>% summarise_each(funs(mean))       
 
 #write the file as a csv
-write.csv( mean.measmeanstd.bysubject.byactivity,file="mean.measmeanstd.bysubject.byactivity.csv",quote=TRUE)
+write.table( mean.measmeanstd.bysubject.byactivity,file="mean.measmeanstd.bysubject.byactivity.txt",quote=TRUE)
 
