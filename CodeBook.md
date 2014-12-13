@@ -132,7 +132,7 @@ fBodyBodyGyroJerkMag.std.. <br>
 		Label the variables in X with features. <br>
 		Name the factor variable Y as "activity" and naem the activities in Y with activity_lables.<br>
 		Name the factor variable subject as "subject".<br>
-	9. Put everything together in one data-frame called **measurements.means.stdev**<br>
+	9. Put everything together in one data-frame called measurements.means.stdev<br>
 	This is what a portion of it looks like:<br>
 		>head(measurements.means.stdev,4)<br>
 		subject activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z<br>
@@ -142,7 +142,7 @@ fBodyBodyGyroJerkMag.std.. <br>
 		4       1 STANDING        -0.9900291        -0.9816856        -0.9820599<br>
 		
 	10. Create a tidy data-frame with summary (mean) of all features, by subject and activity<br>
-		**mean.measmeanstd.bysubject.byactivity**<br>
+		mean.measmeanstd.bysubject.byactivity<br>
 		This is what a portion of it lookslike:<br>
 		> head(mean.measmeanstd.bysubject.byactivity,4)<br>
 		Source: local data frame [4 x 81]<br>
