@@ -1,7 +1,7 @@
 ==================================================================
 Coursera Getting and Cleaning Data PROJECT
 ==================================================================
-This project uses the dataset: <br>
+<h3>This project uses the dataset: </h3>
 Human Activity Recognition Using Smartphones Dataset (HAR USD) Version 1.0<br>
 by<by>
 Davide Anguita, Alessandro Ghio, Luca Oneto, Jorge L. Reyes-Ortiz.<br>
@@ -26,12 +26,13 @@ Then we created a tidy data frame which contains the mean of each variable in
 measurements.means.stdev, computed by subject and by activity in the data frame:
 mean.measmeanstd.bysubject.byactivity
 
-The files: <br>
-	run_analysis.R 	contains the code for the assigned project tasks. <br>
-	CodeBook.md		explains the names of the variables and all the steps in run_analysis.R <br>
-	mean.measmeanstd.bysubject.byactivity.txt	output file - tidy data - with avearges of measuremnts
-	                                             in above file, computed by subject and by activity
-<br>	
+<h3>The files: </h3>
+<ul>
+<il>	run_analysis.R 	&nsp;	&nsp;	contains the code for the assigned project tasks. </il>
+<il>	CodeBook.md	&nsp;	&nsp;	explains the names of the variables and all the steps in run_analysis.R </li>
+<il>	mean.measmeanstd.bysubject.byactivity.txt &nsp;	&nsp;	output file - tidy data - with avearges of measuremnts
+	                                             in above file, computed by subject and by activity </il>
+</ul>	
 NOTE: there were a couple of activities in the code that could have been made with a function. 
 But the tasks were simple enough that I decided against it. Thus, there is no additional script files
 for this project. The file run_analysis.R is self contained.
