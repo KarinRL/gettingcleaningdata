@@ -18,7 +18,7 @@ This Code Book is divided into 3 parts:<br>
 <h2>A. Introduction </h2>
 In this project we collected the mean and standard deviation of measurements
 of human activity of 30 volunteers assembled by the lab referenced above in a data frame called:<br>
-**measurements.means.stdev**
+**measurements.means.stdev** <br>
 Then we created a tidy data frame which contains the mean of each variable in 
 measurements.means.stdev, computed by subject and by activity in the data frame:<br>
 **mean.measmeanstd.bysubject.byactivity**
