@@ -3,7 +3,7 @@
 				CODE BOOK  </h2>
 ==================================================================
 This project uses the dataset from the following work:<br>
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. <br>
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. <br>
 International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012<br>
 ==================================================================
@@ -15,7 +15,8 @@ This Code Book is divided into 3 parts:<br>
 	
 
 ===================================================================
-A. In this project we collected the mean and standard deviation of measurements
+<h2>A. Introduction </h2>
+In this project we collected the mean and standard deviation of measurements
 of human activity of 30 volunteers assembled by the lab referenced above in a data frame called:<br>
 **measurements.means.stdev**
 Then we created a tidy data frame which contains the mean of each variable in 
@@ -24,7 +25,7 @@ measurements.means.stdev, computed by subject and by activity in the data frame:
 
 <hline>
 ===================================================================
-B. <h2>Variables</h2>
+<h2>B. Variables</h2>
 	a. The volunteers are individually identified in the variable "subject" with a number from 1 to 30.
 
 	b. The activities are identified by name in the variable "activity", and they are: <br>
@@ -113,7 +114,7 @@ fBodyBodyGyroJerkMag.std.. <br>
 <hline>
 ==============================================================================
 
-C. <h3> Project Steps</h3>
+<h3>C. Project Steps</h3>
 	1. Set working directory to directory containing project dataset
 	2. Set the name of the folder where the UCI HAR dataset is located: datadir="UCI HAR"
 	3. Get the names of the features (variables) and activity_labels. 
